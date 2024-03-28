@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6dbdb;
+}
+
+form h2 {
+    color: #333;
+    margin-left: 150px;
+}
+
+form {
+    background-color: #e3a1a1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(30, 30, 30, 100);
+    width: 450px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #f0c4c4;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.info {
+    background-color: #8edddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(30, 30, 30, 100);
+    width: 550px;
+    margin: 20px auto;
+}
+
+
